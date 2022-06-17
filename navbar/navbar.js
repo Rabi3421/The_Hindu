@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Hindu : Breaking News, India News, Sports News and Live Updates</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
-</head>
-<body>
+function navbar(){
+    return`
+    const today = new Date();
+let day = today.getDay()
+var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+let month = today.getMonth();
+let monthlist = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+let date = today.getDate();
+let year = today.getFullYear();
+document.getElementById("today_date").innerText = daylist[day]+", "+monthlist[month]+" "+date+", "+year;
     <div id="search_box">
         <div id="left">
             <div class="icons"><i class="fa-brands fa-facebook-f"></i></div>
@@ -37,41 +36,22 @@
         </div>
         <div id="heading">
             <p>TODAY'S PAPER</p>
-            <a href=news.html><p>NEWS</p></a>
-            <a href=opinion.html><p>OPINION</p></a>
-            <a href=business.html><p>BUSINESS</p></a>
-            <a href=sport.html><p>SPORT</p></a>
-            <a href=entertainment.html><p>ENTERTAINMENT</p></a>
-            <a href=crossword.html><p>CROSSWORD+</p></a>
+            <p>NEWS</p>
+            <p>OPINION</p>
+            <p>BUSINESS</p>
+            <p>SPORT</p>
+            <p>ENTERTAINMENT</p>
+            <p>CROSSWORD+</p>
         </div>
         <a href=subscription_trial.html><div id="get_trail">GET TRIAL</div></a>
         <a href="subscription.html"><div id="subscribe">SUBSCRIBE NOW</div></a>
-        <a href="login.html"><div id="login">LOG IN</div></a>
+        <div id="login">LOG IN</div>
     </div>
     <div id="trending">
         <p>TRENDING TODAY</p>
         <p onclick="ukrain()">RUSSIA-UKRAINE CRISIS</p>
         <p onclick="corona()">CORONA VIRUS</p>
         <p onclick="internati()">INTERNATIONAL</p>
-    </div>
-    <div id="show_news">
-        <div id="top">
-            <div id="left1"></div>
-            <div id="right1"></div>
-        </div>
-        <div class="news_heading">
-            <h2>Top Picks</h2>
-        </div>
-        <div id = "top_khabar" class="top_khabar"></div>
-        <div class="news_heading">
-            <h2>Opinion</h2>
-        </div>
-        <div id = "opinion" class="top_khabar"></div>
-        <div class="news_heading">
-            <h2>International</h2>
-        </div>
-        <div id = "international" class="top_khabar"></div>
-    </div>
-</body>
-</html>
-<script src="./script/index.js"></script>
+    </div>`
+}
+export default navbar

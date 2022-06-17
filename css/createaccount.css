@@ -1,0 +1,194 @@
+#header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+}
+#container{
+    height:600px;
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+}
+#facebook{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #46a;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+#facebook>#facebooktext{
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+#facebookImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+#google{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #e54;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+#googletext{
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+#googleimage{
+    height: 33px;
+    width: 34px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(193, 122, 113);
+}
+.data{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: gray;
+}
+span{
+    color: red;
+}
+.name{
+    height: 40px;
+    width: 99%;
+    margin-top: 15px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#createAccount{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #ec6;
+    font-size: 18px;
+    color: rgb(56, 49, 49);
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+#createAccount:hover{
+    background-color: teal;
+    color: white;
+}
+#hrl{
+    display: flex;
+    margin-top: 15px;
+}
+#hrl hr{
+    width: 100%;
+    height: 1px;
+}
+#hrl p{
+    width: 20px;
+    font-size: 25px;
+    margin-top: -8px;
+}
+#signIn{
+    
+    height: 25px;
+    width: 98%;
+    text-align: center;
+    background-color: #ec6;
+    font-size: 18px;
+    color: rgb(56, 49, 49);
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+#signIn a{
+    text-decoration: none;
+    color: rgb(56, 49, 49);
+    
+}
+#signIn:hover{
+    background-color: teal;
+    
+}
+#signIn a:hover{
+    color: white;
+}
+
+
+#fab-bag-nav{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.images{
+    width: 188px;
+    height: 50px;
+}
+.subs1{
+    
+    text-decoration: none;
+    padding: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.fave-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    color: #e6bb64;
+    padding: 15px;
+    /* border: 1px solid black; */
+    
+    
+}
+.subs1>a{
+    color: #e6bb64;
+    text-decoration: none;
+    
+}
+
+/*  hover dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(154, 67, 67, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f4f0f0;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

@@ -1,0 +1,69 @@
+body{
+    background-color: #12485f;
+    width: 70%;
+    margin: auto;
+}
+#page{
+    color: white;
+    margin: auto;
+    margin-top: 60px;
+}
+#page>h1{
+    font-size: 34px;
+}
+#page>div{
+    width: 272px;
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+    font-size:25px;
+}
+#why{
+    font-family: Helvetica,Arial,sans-serif;
+    color: white;
+    margin-top: 20px
+}
+em{
+    margin-top: 25px;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+    font-size: 14px;
+    font-family: Helvetica,Arial,sans-serif;
+    color: white;
+    margin-left: -40px;
+    margin-top:-15px;
+}
+li{
+    /* margin-top: 15px; */
+    color: #F5F5F5;
+    line-height: 30px;
+}
+#free_trail{
+    height: 28px;
+    width: 300px;
+    text-align: center;
+    background-color: #f8d01c;
+    border-radius: 5px;
+    color: #12485f;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 40px;
+}
+#no_card{
+    font-family: Helvetica,Arial,sans-serif;
+    color: white;
+}
+#note{
+    font-family: Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 12px;
+}
+img{
+    height: 460px;
+    width: 460px;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+}
